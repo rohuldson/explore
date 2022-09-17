@@ -16,7 +16,7 @@ body {
     background-color: #121214;
     font-family: "Inter", sans-serif;
     line-height: 160%;
-    color: #fff
+    color: #fff;
 }
 
 header {
@@ -32,11 +32,13 @@ header div {
     border-radius: 100%;
     display: flex;
     padding: 4px ;
-    transition: transform .3s ease-in-out;
+    transition: all .3s ease ;
 }
 
 header div:hover{
-    transform: scale(1.03)
+    transform: scale(1.03);
+    filter: hue-rotate(60deg);
+   
 }
 
 header img {
@@ -54,6 +56,9 @@ main {
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+
 }
 
 section {
@@ -91,16 +96,16 @@ section ul {
     gap: .80rem;
     margin-top: 1.5rem;
     flex-wrap: wrap;
+    transition: all .3s ease ;
 
 }
 
 section ul li:hover{
-   
-    transition: transform .3s ;
+    transition: all .3s ease ;
 }
 
 section ul li:hover{
-    transform: scale(1.1)
+    transform: scale(1.08)
 }
 
 
