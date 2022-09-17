@@ -88,7 +88,7 @@ section p {
 
 section ul {
     display: flex;
-    gap: 1rem;
+    gap: .80rem;
     margin-top: 1.5rem;
     flex-wrap: wrap;
 
